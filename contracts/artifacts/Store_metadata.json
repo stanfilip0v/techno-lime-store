@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "productType",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "quantity",
+						"type": "uint256"
+					}
+				],
+				"name": "addProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "productType",
+						"type": "string"
+					}
+				],
+				"name": "buyProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "productType",
+						"type": "string"
+					}
+				],
+				"name": "getProductBuyers",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getProductTypes",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "productType",
+						"type": "string"
+					}
+				],
+				"name": "returnProduct",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TechnoLimeStore.sol": "Store"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Ownable.sol": {
+			"keccak256": "0xbdbe23ae55c4fb8325c96aeef298d848d6cd1b338b028f9ef468eae9060dd1f8",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ba222de99590f5c9c3361ff9fdbdb88b9db7671b7aef7744e45045c6ef7220af",
+				"dweb:/ipfs/QmbncznNvJ7rEK4MahopWn8ZybMoCNNywvX83TvSn2KeXL"
+			]
+		},
+		"contracts/TechnoLimeStore.sol": {
+			"keccak256": "0x3e130712e38739e7f5366d40c8462d6ca79f656a3a80d16fbac7169e7a0757e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5490c94dcbff5500f2d708b4b8a728bd1648cc453ff83ee6e4ed20a65f9ab8bc",
+				"dweb:/ipfs/QmQGjBoe3LqY3DW5YRE1sz1xpA1EoFTGjTcgiNRMSHsckA"
+			]
+		}
+	},
+	"version": 1
+}
